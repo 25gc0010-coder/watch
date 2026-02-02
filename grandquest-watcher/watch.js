@@ -4,7 +4,7 @@ const cron = require("node-cron");
 const fs = require("fs");
 
 const TARGET_URL = "https://grandquest.jp/works";
-const WEBHOOK_URL = "ここにDiscordのWebhook URL";
+const WEBHOOK_URL = "https://discord.com/api/webhooks/1467773515737468929/BiKfrLWX8Es_G-mWQsKL-Gr3NooUgZogBom1hlpKnEIW_tqcw5HrJCygh7-Iz75R9QMr";
 
 // 前回取得した最新記事URLを保存
 const DATA_FILE = "./last.json";
