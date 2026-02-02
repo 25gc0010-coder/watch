@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const axios = require("axios");
 const cheerio = require("cheerio");
 const cron = require("node-cron");
@@ -44,7 +43,6 @@ cron.schedule("*/10 * * * *", checkUpdate);
 
 // 初回即実行
 checkUpdate();
-=======
 // --- Render Web Service 対応：ポート待ち受け（ダミー） ---
 const http = require("http");
 const PORT = process.env.PORT || 3000;
@@ -102,4 +100,3 @@ cron.schedule("*/10 * * * *", checkUpdate);
 
 // 初回即実行
 checkUpdate();
->>>>>>> 3658acc (add dummy http server for render)
